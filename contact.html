@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+
+<body class="gridcontainer">
+    <header class="flexparent">
+        <img class="headerimg" src="images/header.png">
+        <nav class="navbar">
+            <a class="divmenu" href="index.html">Home</a>
+            <a class="divmenu" href="koffietogo.html">Koffie to go</a>
+            <a class="divmenu" href="overons.html">Over ons</a>
+            <a class="divmenu" href="recepten.html">Recepten</a>
+            <a class="divmenu" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="maincontact">
+        <h1>Wil je contact met ons opnemen?</h1>
+        <div class="divcontact">
+            <h3>Onze openingstijden zijn:</h3>
+            <ul>
+                <li>Maandag: 15:00 - 20:00</li>
+                <li>Dinsdag: 15:00 - 20:00</li>
+                <li>Woensdag: 15:00 - 20:00</li>
+                <li>Donderdag: 15:00 - 20:00</li>
+                <li>Zaterdag: 12:00 - 20:00</li>
+                <li>Zondag: 12:00 - 20:00</li>
+            </ul>
+        </div>
+        <div class="divcontact">
+            <h3>Neem contact op</h3>
+            <ul class="ulnone">
+                <li>Milkshakestraat 28</li>
+                <li>1234IJ Aardbei</li>
+                <li>Tel: 0612345678</li>
+                <li>Email: hallo@ghiacco.nl</li>
+            </ul>
+        </div>
+        <div class="divcontact">
+            <h3>Of vul het formulier in en wij nemen zo snel mogelijk contact met jou op!</h3>
+            <label for="name">Voor- en achternaam: </label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">E-mail: </label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Telefoonnummer: </label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"><br>
+            <label for="contact">Jouw bericht</label><br>
+            <textarea max="250" id="contact" name="contact" rows="8" cols="40"></textarea><br>
+            <input class="input" type="submit" value="VERSTUREN">
+        </div>
+    </main>
+    <footer>
+        <div>
+            <h2>Contact</h2>
+            <ul class="ulnone">
+                <li>Milkshakestraat 28</li>
+                <li>1234IJ Aardbei</li>
+                <li>Tel: 0612345678</li>
+                <li>Email: hallo@ghiacco.nl</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Openingstijden</h2>
+            <ul class="ulnone">
+                <li>Maandag: 15:00 - 20:00</li>
+                <li>Dinsdag: 15:00 - 20:00</li>
+                <li>Woensdag: 15:00 - 20:00</li>
+                <li>Donderdag: 15:00 - 20:00</li>
+                <li>Zaterdag: 12:00 - 20:00</li>
+                <li>Zondag: 12:00 - 20:00</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Doe een ijsje cadeau!</h2>
+            <p>Bestel een echte Ghiacco's cadeaubon en doe een ijsje cadeau! Vul het formulier in en wij nemen zo snel
+                mogelijk contact met je op</p>
+            <form>
+                <input type="checkbox" id="cadeau" name="cadeau" value="cadeau">
+                <label for="cadeau">Ja! Ik wil graag een cadeaubon bestellen</label><br>
+                <label for="email">Mijn e-mail is: </label><br>
+                <input type="email" id="email2" name="email"><br>
+                <input class="input" type="submit" value="Versturen">
+            </form>
+        </div>
+    </footer>
+</body>
+
+</html>

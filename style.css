@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* algemene styling */
+body{
+    font-family:"Quicksand";
+    font-size: 16px;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-areas: 
+    "h h h h "
+    "m m m m"
+    "f f f f";
+}
+header{
+    grid-area: h;
+}
+h1{
+    text-align: center;
+}
+main{
+    grid-area: m;
+}
+.headerimg{
+    width: 500px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;   
+}
+footer{
+    background-color:#f7a7f7;
+    grid-area: f;
+    text-align:center;
+    
+}
+.ulnone{
+    list-style-type: none;    
+}
+#imgheader{
+    width: 500px;
+}
+
+/* Styling index */
+
+.articleindex{
+    display: flex;
+    flex-direction: column;   
+}
+.divmenu{
+    font-family: "Sacramento"; 
+    font-size: 20px;
+    text-decoration: none;
+    background-color:#f7a7f7;
+    border-color:#790479;
+    border-style: solid;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-right: 5px;
+    margin-top: 5px;  
+ }
+.divindex{
+    text-align: center;
+}
+
+/*Styling recepten*/
+
+.mainrecepten{
+    display: flex;
+    flex-direction: column;
+}   
+.divrecepten{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+/*Styling koffie to go */
+
+.mainkoffie{
+    display: flex;
+    flex-direction: column;    
+}
+.divkoffie{
+    background-color: #fffe93;
+    border: groove black 5px;
+    padding: 10px 30px 30px 30px;
+    margin-bottom: 30px;   
+}
+.divbestellen{
+    background-color: rgba(0, 255, 255, 0.281);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+}
+#pkoffie{
+    text-align: center;
+}
+
+/*Styling contact*/
+
+.divcontact{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+/*styling over ons*/
+.overons{
+    text-align: center;
+}
+/* Media Queries */
+
+@media (min-width: 780px){
+.gridcontainer{
+    display: grid;
+    grid-template-areas: 
+    "h h h h f"
+    "m m m m f"
+    "m m m m f";
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articleindex{
+    display: flex;
+    flex-direction: row;
+}
+
+.divindex{
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.divkoffie{
+    margin-left: 200px;
+    margin-right:200px;
+}
+.divbestellen{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.overons{
+    font-size: larger;
+}
+.mainrecepten{
+    display: flex;
+    flex-direction: row;
+    
+} 
+.divrecepten{
+    margin-right: 70px;
+    margin-left: 60px;
+}  
+.divYT{
+    text-align: center;
+}
+
+} /* einde media query grootbeeldscherm */
