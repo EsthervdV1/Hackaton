@@ -3,6 +3,8 @@ Opleiding: Full Stack Developer
 Opleider: Winc Academy
 Periode: juli 2021
 
+Feedback: https://vimeo.com/585728044/7bf6f301c1
+
 Minimum vereisten
 Zorg dat jouw website de volgende eigenschappen heeft, meer mag natuurlijk altijd!
 
